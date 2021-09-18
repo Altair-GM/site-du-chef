@@ -29,7 +29,7 @@
         flex-direction: column;
 
         // img {
-            
+
         // }
 
         p {
@@ -37,7 +37,7 @@
         }
     }
 
-    .sc2 {
+    .sc1-2 {
         display: flex;
         justify-content: space-around;
 
@@ -58,19 +58,20 @@
                 border-style: outset;
 
                 // border-top: none; border-left: none;
-                
+
 
                 i {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    width: 100%; height: 100%;
-                    
+                    width: 100%;
+                    height: 100%;
+
                     font-size: 400%;
 
-                    &:hover{
-                        
+                    &:hover {
+
                         color: orangered;
                         box-shadow: red 5px 5px 15px;
                     }
@@ -94,11 +95,11 @@
             flex-direction: column;
             padding: 2% 1%;
 
-            img{
+            img {
                 font-size: 10px;
                 border-radius: 50%;
             }
-            
+
 
 
             div {
@@ -109,6 +110,46 @@
         }
     }
 
+    
+    
+}
+
+.chefs {
+    img{
+        display: flex;
+        justify-content: center;
+        margin: 1% auto;
+    }
+    h3 {
+        font-family: courgette;
+        font-size: 300%;
+       text-transform: capitalize;
+        text-align: center;
+        color: whitesmoke;
+
+        span {
+            color: red;
+            font-size: 150%;
+            text-transform: uppercase;
+        }
+
+    }
+    background-image: url(../../../public/img/team_background.jpg);
+
+    div {display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
 
 
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: whitesmoke;
+            p{
+                text-transform: capitalize;
+                font-family: courgette;
+            }
+        }
+    }
 }
