@@ -17366,7 +17366,7 @@ body header #btn a:hover {
 }
 .sc1 .sc1-2 .select div i:hover {
   color: orangered;
-  box-shadow: red 5px 5px 15px;
+  box-shadow: black 5px 5px 15px;
 }
 .sc1 .sc1-2 .select div i span {
   font-size: 45%;
@@ -17422,6 +17422,81 @@ body header #btn a:hover {
 .chefs div div p {
   text-transform: capitalize;
   font-family: courgette;
+}
+
+section {
+  background: url(../../../public/img/main_bg.jpg);
+  padding: 5% 10%;
+}
+section div {
+  background-color: floralwhite;
+  display: flex;
+  justify-content: space-between;
+}
+section div h3, section div .h3 {
+  font-family: courgette;
+  font-size: 300%;
+  text-transform: capitalize;
+  text-align: center;
+}
+section div h3 span, section div .h3 span {
+  color: red;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+section .form #form {
+  background-image: url(../../../public/img/book_table_bg.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 20px;
+}
+section .form #form p {
+  color: whitesmoke;
+  text-align: center;
+  background: none;
+  text-transform: capitalize;
+  font-family: menu;
+  font-size: 120%;
+  margin: auto;
+}
+section .form #form p span {
+  font-size: 200%;
+}
+section .form #form #inp {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+  background: none;
+}
+section .form #form #inp div {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  width: 40%;
+}
+section .form #form #inp div input, section .form #form #inp div select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 4%;
+  border-radius: 15px;
+  margin: 5%;
+  width: 100%;
+}
+section .form #form a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 2% 7%;
+  background-color: red;
+  margin: auto;
+  border-radius: 50px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=app.css.map */

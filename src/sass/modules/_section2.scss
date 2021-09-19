@@ -1,0 +1,115 @@
+section {
+    background: url(../../../public/img/main_bg.jpg);
+    padding: 5% 10%;
+
+    div {
+        background-color: floralwhite;
+        display: flex;
+        justify-content: space-between;
+
+
+
+        h3 {
+            font-family: courgette;
+            font-size: 300%;
+            text-transform: capitalize;
+            text-align: center;
+
+            span {
+                color: red;
+                font-size: 150%;
+                text-transform: uppercase;
+            }
+        }
+
+
+    }
+
+    .form {
+
+        #form {
+            background-image: url(../../../public/img/book_table_bg.jpg);
+            background-size: cover;
+            height: 90vh; width: 50vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+
+            border-radius: 20px;
+
+
+            
+            p{
+                color: whitesmoke;
+                text-align: center;
+                // display: flex;
+                // justify-content: center;
+                background: none;
+                text-transform: capitalize;
+                font-family: menu;
+                font-size: 120%;
+                margin: auto;
+                
+                
+                span{
+                    font-size: 200%;
+                }
+
+            }
+
+            #inp {
+                display: flex;
+                justify-content: space-evenly;
+                margin: 5%;
+                background: none;
+                
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    background: none;
+                    width: 40%;
+
+                    input,select {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 4% 4%;
+                        border-radius: 15px;
+                        margin: 5%;
+                        width: 100%;      
+                    }
+                }
+
+                
+                
+                
+                
+            }
+            
+            a{
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                padding: 2% 7%;
+                background-color: red;
+                margin: auto;
+                border-radius: 50px;
+                text-transform: uppercase;
+            }
+
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+}
