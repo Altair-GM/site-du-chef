@@ -17429,17 +17429,36 @@ section {
   padding: 5% 10%;
 }
 section div {
-  background-color: floralwhite;
+  background-color: white;
   display: flex;
   justify-content: space-between;
 }
-section div h3, section div .h3 {
+section div a {
+  display: flex;
+  align-self: center;
+  text-decoration: none;
+  padding: 1% 2%;
+  border-radius: 15px;
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  font-family: menu;
+}
+section div #title {
+  display: flex;
+  flex-direction: column;
+}
+section div #title img {
+  margin-bottom: 5%;
+}
+section div #title h3, section div #title .h3 {
   font-family: courgette;
   font-size: 300%;
   text-transform: capitalize;
   text-align: center;
+  margin: 0%;
 }
-section div h3 span, section div .h3 span {
+section div #title h3 span, section div #title .h3 span {
   color: red;
   font-size: 150%;
   text-transform: uppercase;
@@ -17447,7 +17466,7 @@ section div h3 span, section div .h3 span {
 section .form #form {
   background-image: url(../../../public/img/book_table_bg.jpg);
   background-size: cover;
-  height: 90vh;
+  height: 80vh;
   width: 50vw;
   display: flex;
   justify-content: center;
@@ -17479,7 +17498,8 @@ section .form #form #inp div {
   background: none;
   width: 40%;
 }
-section .form #form #inp div input, section .form #form #inp div select {
+section .form #form #inp div input,
+section .form #form #inp div select {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17497,6 +17517,74 @@ section .form #form a {
   margin: auto;
   border-radius: 50px;
   text-transform: uppercase;
+}
+section #title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section #title img {
+  width: 60%;
+}
+section #title h3, section #title .h3 {
+  font-family: courgette;
+  font-size: 250%;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 5%;
+}
+section #title h3 span, section #title .h3 span {
+  color: red;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+section .card {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  padding: 0% 5%;
+}
+section .card div {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 2%;
+}
+section .card div div {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0%;
+  height: 42.5vh;
+  width: 33vw;
+  background: none;
+}
+section .card div div p {
+  font-size: 150%;
+  font-family: courgette;
+  color: white;
+  width: 80%;
+  border-radius: 15px;
+  background-color: red;
+  padding: 3% 2%;
+  margin: 0%;
+  text-align: center;
+}
+section .card div img {
+  border: solid 5px lightgray;
+  border-radius: 20px;
+}
+section .card div h4, section .card div .h4 {
+  margin: 5% 0%;
+  text-transform: capitalize;
+}
+section .card div p {
+  text-align: left;
+}
+section .card div p span {
+  font-weight: bold;
+  margin: 5%;
 }
 
 /*# sourceMappingURL=app.css.map */
