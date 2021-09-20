@@ -17587,4 +17587,70 @@ section .card div p span {
   margin: 5%;
 }
 
+.sc3 {
+  padding: 0% 0%;
+  background-image: url(../../../public/img/testimonials_background.jpg);
+}
+.sc3 #title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: none;
+}
+.sc3 #title2 h3, .sc3 #title2 .h3 {
+  font-family: courgette;
+  font-size: 250%;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 2%;
+  color: white;
+}
+.sc3 #title2 h3 span, .sc3 #title2 .h3 span {
+  color: red;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+.sc3 #title2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  background: none;
+}
+.sc3 #title2 div img {
+  border-radius: 50%;
+  border: solid 5px lightgray;
+  margin: 1% 1%;
+}
+.sc3 #title2 div img:nth-child(1) {
+  transform: scaleX(-1);
+}
+.sc3 #title2 div div {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: solid 2px white;
+  border-radius: 15px;
+  margin: 1% 1%;
+  padding: 1% 1%;
+  color: white;
+}
+.sc3 #title2 div div h4, .sc3 #title2 div div .h4 {
+  text-align: left;
+  width: 100%;
+  font-family: menu;
+}
+.sc3 #title2 div div span {
+  text-align: left;
+  width: 100%;
+  text-transform: capitalize;
+  color: red;
+  font-size: 120%;
+  font-family: menu;
+}
+.sc3 #title2 div div p {
+  text-align: left;
+}
+
 /*# sourceMappingURL=app.css.map */
