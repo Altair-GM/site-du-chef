@@ -1,6 +1,7 @@
 .sc1 {
     background: url(../../../public/img/main_bg.jpg);
     padding: 5% 10%;
+    border-bottom: url(../../../public/img/bottom_decoration_img.png);
 
     div {
         background-color: floralwhite;
@@ -73,7 +74,7 @@
                     &:hover {
 
                         color: orangered;
-                        box-shadow:black 5px 5px 15px;
+                        box-shadow: black 5px 5px 15px;
                     }
 
                     span {
@@ -110,20 +111,21 @@
         }
     }
 
-    
-    
+
+
 }
 
 .chefs {
-    img{
+    img {
         display: flex;
         justify-content: center;
         margin: 1% auto;
     }
+
     h3 {
         font-family: courgette;
         font-size: 300%;
-       text-transform: capitalize;
+        text-transform: capitalize;
         text-align: center;
         color: whitesmoke;
 
@@ -134,21 +136,136 @@
         }
 
     }
+
     background-image: url(../../../public/img/team_background.jpg);
 
-    div {display: flex;
+    div {
+        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
 
 
-        div{
+        div {
             display: flex;
             flex-direction: column;
             text-align: center;
             color: whitesmoke;
-            p{
+
+            p {
                 text-transform: capitalize;
                 font-family: courgette;
+            }
+        }
+    }
+}
+
+// responsive--Ipad------------
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    body {
+        .sc1 {
+            padding: 0%;
+
+            .txt1 {
+                padding: 2%;
+            }
+
+            .sc1-2 {
+
+                div {
+                    padding: 1% 1%;
+
+                    p {
+                        padding: 1% 1%;
+                        font-size: 65%;
+                    }
+
+                    img {
+                        height: 50%;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+
+        .chefs {
+
+            div {
+                div {
+                    img {
+                        height: 80%;
+                        width: 80%;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// responsive--Samsung-Galaxy-S5------------
+
+@media screen and (min-width:360px) and (max-width:640px) {
+    body {
+        .sc1 {
+            padding: 0%;
+
+            .txt1 {
+                padding: 2%;
+            }
+
+            .sc1-2 {
+
+                .select {
+                    height: 50%;
+                    width: 50%;
+                    div {
+                        
+                        padding: 1% 1%;
+
+                        p {
+                            padding: 1% 1%;
+                            font-size: 15%;
+                        }
+
+                        img {
+                            height: 50%;
+                            width: 50%;
+                        }
+                    }
+
+
+                }
+
+                div {
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        height: 50%;
+                        width: 50%;
+
+                        p {
+                            font-size: 80%;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .chefs {
+            img{
+                width: 80%;
+            }
+
+            div {
+                div {
+                    img {
+                        height: 80%;
+                        width: 80%;
+
+                    }
+                }
             }
         }
     }

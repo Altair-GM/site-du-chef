@@ -1,7 +1,7 @@
 section {
     background: url(../../../public/img/main_bg.jpg);
     padding: 5% 10%;
-    
+
 
     div {
         background-color: white;
@@ -228,4 +228,49 @@ section {
 
 
 
+}
+
+// responsive--Ipad------------
+@media screen and (min-width:768px) and (max-width:1024px) {
+    section {
+        padding: 0%;
+
+        .form {
+
+            #form {
+                width: 80%;
+            }
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+// responsive--Samsung-Galaxy-S5------------
+
+@media screen and (min-width:360px) and (max-width:640px) {
+    section {
+        padding: 0%;
+
+        div{
+            img{
+                height: 20%; width: 20%;
+            }
+        }
+
+        .form {
+
+            #form {
+                width: 80%;
+            }
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }

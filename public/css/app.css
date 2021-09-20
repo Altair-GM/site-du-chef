@@ -17288,6 +17288,9 @@ body header .txt1 {
   z-index: 2;
   position: absolute;
 }
+body header .txt1 .text-white {
+  font-size: 400%;
+}
 body header #btn {
   margin: 2% 2%;
   width: 40%;
@@ -17309,10 +17312,44 @@ body header #btn a:nth-child(1) {
 body header #btn a:hover {
   padding: 2%;
 }
+body .bdr {
+  background-image: url(../../../public/img/bottom_decoration_img.png);
+  height: 10px;
+  width: 100%;
+}
 
+@media screen and (min-width: 120px) and (max-width: 768px) {
+  body header nav {
+    opacity: 0%;
+  }
+  body header nav div a {
+    font-size: 80%;
+  }
+  body header .txt1 #btn {
+    font-size: 50%;
+  }
+  body header .txt1 .text-white {
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  body header nav {
+    opacity: 0%;
+  }
+  body header nav div a {
+    font-size: 80%;
+  }
+  body header .txt1 #btn {
+    font-size: 50%;
+  }
+  body header .txt1 .text-white {
+    font-size: 100%;
+  }
+}
 .sc1 {
   background: url(../../../public/img/main_bg.jpg);
   padding: 5% 10%;
+  border-bottom: url(../../../public/img/bottom_decoration_img.png);
 }
 .sc1 div {
   background-color: floralwhite;
@@ -17424,6 +17461,68 @@ body header #btn a:hover {
   font-family: courgette;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body .sc1 {
+    padding: 0%;
+  }
+  body .sc1 .txt1 {
+    padding: 2%;
+  }
+  body .sc1 .sc1-2 div {
+    padding: 1% 1%;
+  }
+  body .sc1 .sc1-2 div p {
+    padding: 1% 1%;
+    font-size: 65%;
+  }
+  body .sc1 .sc1-2 div img {
+    height: 50%;
+    width: 50%;
+  }
+  body .chefs div div img {
+    height: 80%;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  body .sc1 {
+    padding: 0%;
+  }
+  body .sc1 .txt1 {
+    padding: 2%;
+  }
+  body .sc1 .sc1-2 .select {
+    height: 50%;
+    width: 50%;
+  }
+  body .sc1 .sc1-2 .select div {
+    padding: 1% 1%;
+  }
+  body .sc1 .sc1-2 .select div p {
+    padding: 1% 1%;
+    font-size: 15%;
+  }
+  body .sc1 .sc1-2 .select div img {
+    height: 50%;
+    width: 50%;
+  }
+  body .sc1 .sc1-2 div div {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+  }
+  body .sc1 .sc1-2 div div p {
+    font-size: 80%;
+  }
+  body .chefs img {
+    width: 80%;
+  }
+  body .chefs div div img {
+    height: 80%;
+    width: 80%;
+  }
+}
 section {
   background: url(../../../public/img/main_bg.jpg);
   padding: 5% 10%;
@@ -17587,6 +17686,34 @@ section .card div p span {
   margin: 5%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section {
+    padding: 0%;
+  }
+  section .form #form {
+    width: 80%;
+  }
+  section .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  section {
+    padding: 0%;
+  }
+  section div img {
+    height: 20%;
+    width: 20%;
+  }
+  section .form #form {
+    width: 80%;
+  }
+  section .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .sc3 {
   padding: 0% 0%;
   background-image: url(../../../public/img/testimonials_background.jpg);
@@ -17678,6 +17805,92 @@ section .card div p span {
 }
 .sc3 #contact #card2 i {
   font-size: 310%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body .sc3 .title2 img {
+    height: 15%;
+    width: 15%;
+  }
+  body .sc3 #contact {
+    padding: 0%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  body .sc3 .title2 img {
+    height: 15%;
+    width: 15%;
+  }
+  body .sc3 #contact {
+    padding: 0%;
+  }
+}
+.bdr {
+  background-image: url(../../../public/img/bottom_decoration_img.png);
+  height: 10px;
+  width: 100%;
+}
+.bdr:nth-last-of-type(2) {
+  transform: scaley(-1);
+}
+
+footer {
+  background-image: url(../../../public/img/footer_background.jpg);
+  display: flex;
+}
+footer div {
+  flex: 1;
+  padding: 1% 2%;
+  color: whitesmoke;
+}
+footer div h3, footer div .h3 {
+  text-transform: uppercase;
+  font-family: menu;
+}
+footer div img {
+  margin: 2% 1%;
+}
+footer div i {
+  font-size: 150%;
+  margin: 0% 2%;
+}
+footer div a {
+  text-decoration: none;
+  color: white;
+  font-size: 80%;
+  width: 100%;
+  height: 100%;
+  padding: 2% 2%;
+  background-color: red;
+  border-radius: 15px;
+  border: solid white 1px;
+}
+
+#redline {
+  background-color: red;
+  width: 100%;
+  height: 4vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer div:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+  }
+  footer div:nth-of-type(3) a {
+    margin: 1% 1%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  footer div:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+  footer div:nth-of-type(3) a {
+    margin: 1% 1%;
+    padding: 0%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -139,3 +139,52 @@
 
 
 }
+
+// responsive--Ipad------------
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    body{
+
+        .sc3{
+            .title2{
+                img{
+                    height: 15%; width: 15%;
+                }
+            }
+
+            #contact{
+                padding: 0%;
+                #card2{
+                    
+
+                }
+            }
+        }
+    }
+}
+
+// responsive--Samsung-Galaxy-S5------------
+
+@media screen and (min-width:360px) and (max-width:640px){
+    body{
+
+        .sc3{
+            .title2{
+
+                img{
+                    height: 15%; width: 15%;
+                }
+            }
+
+            #contact{
+                padding: 0%;
+                
+                #card2{
+                    
+
+                }
+            }
+        }
+    }
+}
+
