@@ -1,5 +1,5 @@
 .bdr {
-    background-image: url(../../../public/img/bottom_decoration_img.png);
+    background-image: url(../../public/img/bottom_decoration_img.png);
     height: 10px;
     width: 100%;
 
@@ -12,7 +12,7 @@
 }
 
 footer {
-    background-image: url(../../../public/img/footer_background.jpg);
+    background-image: url(../../public/img/footer_background.jpg);
     display: flex;
 
 
@@ -67,7 +67,7 @@ footer {
     height: 4vw;
 }
 
-// responsive--Ipad------------
+// responsive--Ipad/tablettes---------
 
 @media screen and (min-width:768px) and (max-width:1024px) {
 
@@ -85,9 +85,9 @@ footer {
     }
 }
 
-// responsive--Samsung-Galaxy-S5------------
+// responsive--Samsung-Galaxy-S5/Iphone-x------------
 
-@media screen and (min-width:360px) and (max-width:640px) {
+@media screen and (min-width:280px) and (max-width:640px) {
 
     footer {
         div {

@@ -17332,9 +17332,10 @@ body .bdr {
     font-size: 100%;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (min-width: 280px) and (max-width: 640px) {
   body header nav {
     opacity: 0%;
+    width: 10%;
   }
   body header nav div a {
     font-size: 80%;
@@ -17347,9 +17348,9 @@ body .bdr {
   }
 }
 .sc1 {
-  background: url(../../../public/img/main_bg.jpg);
+  background: url(.././img/main_bg.jpg);
   padding: 5% 10%;
-  border-bottom: url(../../../public/img/bottom_decoration_img.png);
+  border-bottom: url(../../public/img/bottom_decoration_img.png);
 }
 .sc1 div {
   background-color: floralwhite;
@@ -17426,7 +17427,7 @@ body .bdr {
 }
 
 .chefs {
-  background-image: url(../../../public/img/team_background.jpg);
+  background-image: url(../../public/img/team_background.jpg);
 }
 .chefs img {
   display: flex;
@@ -17479,52 +17480,61 @@ body .bdr {
     height: 50%;
     width: 50%;
   }
+  body .chefs img {
+    width: 50%;
+  }
   body .chefs div div img {
     height: 80%;
     width: 80%;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (min-width: 280px) and (max-width: 640px) {
+  body {
+    width: 100%;
+  }
   body .sc1 {
     padding: 0%;
   }
+  body .sc1 h3, body .sc1 .h3 {
+    font-size: 150%;
+    height: 50%;
+  }
   body .sc1 .txt1 {
     padding: 2%;
+  }
+  body .sc1 .txt1 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
   }
   body .sc1 .sc1-2 .select {
     height: 50%;
     width: 50%;
   }
-  body .sc1 .sc1-2 .select div {
-    padding: 1% 1%;
-  }
-  body .sc1 .sc1-2 .select div p {
-    padding: 1% 1%;
-    font-size: 15%;
-  }
-  body .sc1 .sc1-2 .select div img {
-    height: 50%;
-    width: 50%;
+  body .sc1 .sc1-2 .select div i {
+    font-size: 120%;
   }
   body .sc1 .sc1-2 div div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 50%;
     width: 50%;
+    width: 100%;
+  }
+  body .sc1 .sc1-2 div div img {
+    height: 50px;
+    width: 50px;
   }
   body .sc1 .sc1-2 div div p {
-    font-size: 80%;
+    font-size: 60%;
   }
   body .chefs img {
-    width: 80%;
-  }
-  body .chefs div div img {
-    height: 80%;
-    width: 80%;
+    width: 50%;
   }
 }
 section {
-  background: url(../../../public/img/main_bg.jpg);
+  background: url(../../public/img/main_bg.jpg);
   padding: 5% 10%;
 }
 section div {
@@ -17563,7 +17573,7 @@ section div #title h3 span, section div #title .h3 span {
   text-transform: uppercase;
 }
 section .form #form {
-  background-image: url(../../../public/img/book_table_bg.jpg);
+  background-image: url(../../public/img/book_table_bg.jpg);
   background-size: cover;
   height: 80vh;
   width: 50vw;
@@ -17698,7 +17708,7 @@ section .card div p span {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (min-width: 280px) and (max-width: 640px) {
   section {
     padding: 0%;
   }
@@ -17706,17 +17716,41 @@ section .card div p span {
     height: 20%;
     width: 20%;
   }
+  section div #title h3, section div #title .h3 {
+    font-size: 150%;
+    margin: 5% 5%;
+  }
+  section div #title img {
+    height: 150%;
+    width: 150%;
+  }
   section .form #form {
     width: 80%;
   }
-  section .card {
+  section #title h3, section #title .h3 {
+    font-size: 150%;
+    margin: 5% 5%;
+  }
+  section .card div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  section .card div img {
+    height: 80%;
+    width: 80%;
+  }
+  section .card div div {
+    height: 25%;
+    width: 25%;
+  }
+  section .card div div p {
+    font-size: 20%;
   }
 }
 .sc3 {
   padding: 0% 0%;
-  background-image: url(../../../public/img/testimonials_background.jpg);
+  background-image: url(../../public/img/testimonials_background.jpg);
 }
 .sc3 .title2 {
   display: flex;
@@ -17785,7 +17819,7 @@ section .card div p span {
 .sc3 #contact {
   display: flex;
   flex-direction: column;
-  background-image: url(../../../public/img/main_bg.jpg);
+  background-image: url(../../public/img/main_bg.jpg);
   padding: 2% 35%;
 }
 .sc3 #contact .title2 {
@@ -17816,7 +17850,21 @@ section .card div p span {
     padding: 0%;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (min-width: 280px) and (max-width: 640px) {
+  body .sc3 .title2 h3, body .sc3 .title2 .h3 {
+    font-size: 150%;
+    height: 70%;
+  }
+  body .sc3 .title2 div {
+    height: 100%;
+    width: 100%;
+  }
+  body .sc3 .title2 div h4, body .sc3 .title2 div .h4 {
+    font-size: 90%;
+  }
+  body .sc3 .title2 div p {
+    font-size: 60%;
+  }
   body .sc3 .title2 img {
     height: 15%;
     width: 15%;
@@ -17826,7 +17874,7 @@ section .card div p span {
   }
 }
 .bdr {
-  background-image: url(../../../public/img/bottom_decoration_img.png);
+  background-image: url(../../public/img/bottom_decoration_img.png);
   height: 10px;
   width: 100%;
 }
@@ -17835,7 +17883,7 @@ section .card div p span {
 }
 
 footer {
-  background-image: url(../../../public/img/footer_background.jpg);
+  background-image: url(../../public/img/footer_background.jpg);
   display: flex;
 }
 footer div {
@@ -17881,7 +17929,7 @@ footer div a {
     margin: 1% 1%;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (min-width: 280px) and (max-width: 640px) {
   footer div:nth-of-type(3) {
     display: flex;
     flex-direction: column;

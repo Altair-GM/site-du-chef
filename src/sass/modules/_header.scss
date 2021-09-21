@@ -140,7 +140,7 @@ body {
 
 }
 
-// responsive--Ipad------------
+// responsive--Ipad/tablettes---------
 
 @media screen and (min-width:120px) and (max-width:768px) {
 
@@ -169,13 +169,14 @@ body {
     }
 }
 
-// responsive--Samsung-Galaxy-S5------------
-@media screen and (min-width:360px) and (max-width:640px) {
+// responsive--Samsung-Galaxy-S5/Iphone-x------------
+@media screen and (min-width:280px) and (max-width:640px) {
 
     body {
         header {
             nav {
                 opacity: 0%;
+                width: 10%;
 
                 div {
                     a {
